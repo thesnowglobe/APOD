@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe:ital@0;1&family=Julius+Sans+One&display=swap');
+
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -40,17 +42,21 @@
 }
 
 footer {
+  font-family: "Alumni Sans Pinstripe", serif;
+  font-weight: 400;
+  font-style: normal;
   position: fixed;
   bottom: 0;
   left: 0;
   width: 100%;
   z-index: 5;
-
+  padding: 20px 40px;
 }
 
 .hover-area {
   position: relative;
   z-index: 1;
+  font-size: 1.8rem;
 }
 
 .sliding-text {
@@ -60,6 +66,7 @@ footer {
   bottom: -100%;
   transition: max-height 0.5s ease-in-out, opacity 0.3s ease-out;
   z-index: 2;
+  font-size: 1.1rem;
 }
 
 footer .hover-area:hover + .sliding-text,
@@ -82,36 +89,3 @@ footer .sliding-text:hover {
   opacity: 0.6;
 }
 
-.descriptionContainer {
-  display: flex;
-  flex-direction: column;
-  gap: 0.5rem;
-}
-
-.descriptionTitle {
-  font-size: 1.1rem;
-  font-weight: 200;
-}
-
-.loadingState {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex: 1;
-}
-
-.loadingState i {
-  opacity: 0.2;
-  font-size: 3rem;
-  animation: spin 1s linear infinite;
-}
-
-@keyframes spin {
-  from {
-    transform: rotate(0deg);
-  }
-
-  to {
-    transform: rotate(360deg);
-  }
-}
