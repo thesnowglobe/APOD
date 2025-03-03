@@ -1,8 +1,8 @@
-# React + Vite
+# APOD 🌌
+Astronomy Picture of the Day.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## About
+Viewer project is a web-based application that showcases the daily featured image from NASA’s APOD website. It provides users with a visual feast of stunning astronomical images, along with a detailed explanation of the image, its significance, and the science behind it.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+* Title and Image Display: Each day, the app fetches and displays the featured astronomical image along with its title.
